@@ -1,1 +1,1 @@
-Git Training
+This is Ammend that will replace the previous commit 
