@@ -7,7 +7,7 @@ function App() {
        <h1>
          Velaanmaiam 
        </h1>
-       <h1>Requesting pull2</h1>
+       <h1>Requesting pull</h1>
       </header>
     </div>
   );
