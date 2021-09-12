@@ -17,7 +17,7 @@ export default function Homeblog(){
            <p> our buyers and sellers to make the organic </p>
           <p> products purchase easy and efficient way. </p>
           <div className="button">
-         <Button onClick="know more">Knowmore</Button>
+         <Button onClick="know more">Know more</Button>
          </div>
         </FigureCaption>
         </Figure>
