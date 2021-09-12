@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -11,5 +11,35 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+} */
+
+.blogText{
+  text-align: right;
+position: relative;
+bottom: 15rem;
+margin: 0 2rem;
+color:black;
+font-size: 1.5em;
+
+}
+.button{
+  margin: 15px;
 }
 
+@media screen and (max-width: 560px) {
+  .blogText{
+    position: inherit;
+    bottom: inherit;
+    margin: .25rem;
+    font-size: inherit;
+    color:black;
+    text-align: left;
+  }
+  
+  .position-relative{
+    max-width: 100%;
+    height: auto;
+    padding: 5px;
+    opacity: 1;
+  }
+}
