@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.About{
+    width: 100vw;
+    min-height: 100vh;
+    padding: 100px 50px 50px 50px;
+    background-color: blanchedalmond;
+    color: black;
+}
+
+iframe{
+    margin:20px;
+    margin-right: 0;
+
+
+}
+
+
+.aboutVideos::-webkit-scrollbar{
+    height: 10px;
+    outline: none;
+}
+.aboutVideos::-webkit-scrollbar-thumb{
+    border-radius: 0;
+    background:gray;
+}
+
+.aboutVideos{
+    transform: translateX(-50px);
+    display: flex;
+    overflow-x: scroll;
+    width: 100vw;
+    background-color: burlywood;
+}
+
+
+
+
+
+
+
+@media (max-width:500px){
+    .aboutVideos::-webkit-scrollbar{
+        display: none;
+        max-width: 100%;
+    }
+    
+}
+
