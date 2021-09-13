@@ -1,12 +1,12 @@
 
 import './App.css';
-import AboutUs from "./components/aboutus/about";
+import DEALER from "./COMPONENTS/DEALER/dealer";
 
 
-function App() {
+function App(){
   return (
     <div>
-        <AboutUs/>
+        <DEALER/>
       
     </div>
   );
